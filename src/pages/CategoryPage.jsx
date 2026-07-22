@@ -5,6 +5,7 @@ import ResourceCard from '../components/ResourceCard'
 import SearchBar from '../components/SearchBar'
 import EmptyState from '../components/EmptyState'
 import LoadingSpinner from '../components/LoadingSpinner'
+import { Clock } from 'lucide-react'
 import { getCategoryIcon } from '../utils/categoryIcons'
 import './CategoryPage.css'
 
@@ -40,6 +41,7 @@ export default function CategoryPage({ resources }) {
 
   if (!category) return null
 
+  const isComingSoon = category.files.length === 0
   const filesWithFolder = filteredFiles.map((f) => ({ ...f, folder: category.folder }))
 
   return (
@@ -56,25 +58,35 @@ export default function CategoryPage({ resources }) {
         </div>
       </div>
 
-      <div className="category-page__toolbar">
-        <SearchBar
-          value={query}
-          onChange={setQuery}
-          placeholder={`Search in ${category.name}…`}
+      {isComingSoon ? (
+        <EmptyState
+          icon={Clock}
+          title="Coming soon"
+          message="Materials for this course haven't been uploaded yet — check back soon."
         />
-        <span className="category-page__count">
-          {filteredFiles.length} of {category.files.length} files
-        </span>
-      </div>
-
-      {filesWithFolder.length === 0 ? (
-        <EmptyState title="No matching files" message="Try a different search term, or clear the search." />
       ) : (
-        <div className="resource-list">
-          {filesWithFolder.map((file) => (
-            <ResourceCard key={file.filename} file={file} />
-          ))}
-        </div>
+        <>
+          <div className="category-page__toolbar">
+            <SearchBar
+              value={query}
+              onChange={setQuery}
+              placeholder={`Search in ${category.name}…`}
+            />
+            <span className="category-page__count">
+              {filteredFiles.length} of {category.files.length} files
+            </span>
+          </div>
+
+          {filesWithFolder.length === 0 ? (
+            <EmptyState title="No matching files" message="Try a different search term, or clear the search." />
+          ) : (
+            <div className="resource-list">
+              {filesWithFolder.map((file) => (
+                <ResourceCard key={file.filename} file={file} />
+              ))}
+            </div>
+          )}
+        </>
       )}
     </div>
   )

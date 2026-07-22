@@ -1,9 +1,9 @@
 {
-  "name": "study-materials-library",
+  "name": "hunar-it-hub",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "A static, database-free resource library for sharing study PDFs with students.",
+  "description": "Hunar IT Hub — a static, database-free resource library for sharing IT class notes with students.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

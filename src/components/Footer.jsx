@@ -10,6 +10,7 @@ export default function Footer({ siteTitle, author, institute }) {
           <p className="footer__note">A free, static library of study materials. No sign-in, no tracking.</p>
           {(author || institute) && (
             <p className="footer__credit">
+              <img src={`${import.meta.env.BASE_URL}logo.jpg`} alt="" className="footer__logo" />
               Maintained by {author}
               {institute && <> · {institute}</>}
             </p>

@@ -1,19 +1,22 @@
-# Archive — Study Materials Library
+# Hunar IT Hub — Study Materials Library
 
-A clean, fast, searchable library for sharing study PDFs with students. No backend,
-no database, no paid services — just static files hosted for free on GitHub Pages
-or Netlify.
+A clean, fast, searchable library for sharing IT class notes and guides with
+students at **Hunar Institute of Vocational Training, Dadu**. No backend,
+no database, no paid services — just static files hosted for free on GitHub
+Pages or Netlify.
 
-Live structure: a React + Vite site reads everything from **one JSON file**
-(`public/data/resources.json`) and generates the entire UI — categories, cards,
-search index, and recent uploads — automatically.
+The site reads everything from **one JSON file**
+(`public/data/resources.json`) and generates the entire UI — categories,
+cards, search index, and recent uploads — automatically.
 
 ---
 
 ## ✨ What you get
 
 - Dark mode by default, with a light mode toggle
+- Institute branding: logo, name, and instructor credit in the navbar/footer
 - Instant client-side search (name, description, category — no server)
+- "Coming soon" state for courses you haven't uploaded materials for yet
 - Category pages with expand/collapse previews on the home page
 - Favorites and "recently viewed" saved in the visitor's browser (localStorage)
 - Copy-link button per resource, scroll-to-top, breadcrumbs, empty states
@@ -26,21 +29,22 @@ search index, and recent uploads — automatically.
 
 ```
 public/
+  logo.jpg               ← institute logo, shown in navbar + footer
   files/
-    Computer-Networks/
-      intro-to-networking.pdf
-      routing-algorithms.pdf
-    Operating-Systems/
-      process-scheduling.pdf
-    Programming/
-    Mathematics/
+    Computer-Fundamentals/
+      intro-to-computers.pdf
+      operating-system-basics.pdf
+    MS-Word-Essentials/
+    Browsing-Internet-Email/
+    MS-Excel-Essentials/        ← currently empty ("Coming soon" on site)
+    MS-PowerPoint-Essentials/   ← currently empty ("Coming soon" on site)
   data/
     resources.json      ← the ONLY file you edit to add/remove resources
 src/
   components/           ← reusable UI pieces (Navbar, Hero, Cards, etc.)
   pages/                ← Home, CategoryPage, SearchPage, FavoritesPage
   hooks/                ← useResources, useFavorites, useRecentlyViewed, useLocalStorage
-  context/               ← ThemeContext (dark/light)
+  context/              ← ThemeContext (dark/light)
   utils/                ← icon map + file URL helper
 ```
 
@@ -61,16 +65,24 @@ src/
 
 ```json
 {
-  "title": "Subnetting Practice Problems",
-  "description": "20 worked examples with answer key",
-  "filename": "subnetting-practice.pdf",
+  "title": "Formulas & Functions Basics",
+  "description": "SUM, AVERAGE, IF, and everyday formulas",
+  "filename": "formulas-basics.pdf",
   "size": "1.4 MB",
   "date": "2026-08-01"
 }
 ```
 Add this object inside the `"files": [ ... ]` array of the matching category,
-and make sure `subnetting-practice.pdf` exists in that category's folder
-under `public/files/`.
+and make sure `formulas-basics.pdf` exists in that category's folder under
+`public/files/`.
+
+### "Coming soon" categories — MS Excel & MS PowerPoint
+
+`MS-Excel-Essentials` and `MS-PowerPoint-Essentials` are already set up as
+categories with an empty `"files": []` array. The site automatically shows
+them with a **"Coming soon"** badge instead of a file count. The moment you
+add real files to their `files` array (and drop the matching PDFs into their
+folders), the badge disappears on its own — no other change needed.
 
 ### Example: adding a brand-new category
 
@@ -86,7 +98,8 @@ under `public/files/`.
 ```
 - `id` — used in the URL (`/category/databases`), keep it lowercase with hyphens.
 - `icon` — pick one of: `network`, `cpu`, `code`, `sigma`, `book`, `flask`,
-  `database`, `globe`, `shapes`, `calculator`, `binary`, `layers`.
+  `database`, `globe`, `shapes`, `calculator`, `binary`, `layers`, `monitor`,
+  `filetext`, `table`.
   (Add more mappings in `src/utils/categoryIcons.js` if you need a different one.)
 - `folder` — must exactly match the folder name inside `public/files/`.
 
@@ -105,18 +118,43 @@ so file names are case-sensitive and must match the JSON exactly.
 
 ---
 
+## 🏫 Site name, bio, and credit
+
+These live at the top of `public/data/resources.json`:
+
+```json
+"siteTitle": "Hunar IT Hub",
+"siteTagline": "Class notes, practical guides, and cheat sheets for the IT program at Hunar Institute — free to download, anytime.",
+"author": "M.Khan Jamali",
+"institute": "Hunar Institute of Vocational Training, Dadu",
+```
+
+Change any of these values and they update everywhere — the hero, the
+"curated by" strip on the homepage, and the footer credit.
+
+## 🖼 Changing the logo
+
+Replace `public/logo.jpg` with your own image (any square-ish image works —
+it's displayed as a small circle in the navbar and footer). Keep the same
+filename, or update the two `<img src="...logo.jpg" />` references in
+`src/components/Navbar.jsx` and `src/components/Footer.jsx` if you rename it.
+
+---
+
 ## 🎨 Changing the look
 
 Almost the entire visual identity lives in `src/index.css` under
-`:root { ... }`. To change the accent color site-wide, edit one line:
+`:root { ... }`. To change the accent color site-wide, edit these lines:
 
 ```css
---accent: #6C8CFF;   /* change this hex value */
---accent-hover: #86A2FF;  /* a slightly lighter shade for hover states */
+--accent: #2F86E8;        /* primary blue — buttons, links, focus states */
+--accent-hover: #4E9DF2;  /* lighter shade for hover states */
+--accent-green: #2FA84F;  /* secondary green — "Coming soon" badges, status dot */
 ```
 
-Fonts, radii, and shadows are also defined there as CSS variables if you want
-to adjust the overall feel.
+The current palette (blue, green, white) is pulled directly from the
+institute logo. Fonts, radii, and shadows are also defined there as CSS
+variables if you want to adjust the overall feel.
 
 ---
 
@@ -182,8 +220,8 @@ npm run preview   # preview the production build locally
 - Favorites and recently-viewed resources are stored per-browser via
   `localStorage` (see `src/hooks/useFavorites.js` and
   `src/hooks/useRecentlyViewed.js`) — nothing is sent anywhere.
-- Routing uses `HashRouter` (URLs look like `/#/category/programming`) so
-  the site works correctly on static hosts without server-side rewrite rules.
+- Routing uses `HashRouter` (URLs look like `/#/category/computer-fundamentals`)
+  so the site works correctly on static hosts without server-side rewrite rules.
 
 ---
 

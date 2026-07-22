@@ -28,9 +28,13 @@
   white-space: nowrap;
 }
 
-.navbar__brand-mark {
-  color: var(--accent);
-  font-size: 14px;
+.navbar__logo {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 1px var(--border-strong);
+  background: #fff;
 }
 
 .navbar__links--desktop {

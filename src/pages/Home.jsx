@@ -91,20 +91,32 @@ export default function Home({ resources }) {
                   <span className="accordion-item__label">
                     <Icon size={17} aria-hidden="true" />
                     {cat.name}
-                    <span className="accordion-item__count">{cat.files.length}</span>
+                    {cat.files.length === 0 ? (
+                      <span className="accordion-item__count accordion-item__count--soon">Coming soon</span>
+                    ) : (
+                      <span className="accordion-item__count">{cat.files.length}</span>
+                    )}
                   </span>
                   <ChevronDown size={17} className="accordion-item__chevron" aria-hidden="true" />
                 </button>
                 {isOpen && (
                   <div className="accordion-item__body">
-                    <ul>
-                      {cat.files.slice(0, 5).map((f) => (
-                        <li key={f.filename}>{f.title}</li>
-                      ))}
-                    </ul>
-                    <Link to={`/category/${cat.id}`} className="accordion-item__link">
-                      View all in {cat.name} <ArrowRight size={14} />
-                    </Link>
+                    {cat.files.length === 0 ? (
+                      <p className="accordion-item__soon-text">
+                        Materials for this course haven't been uploaded yet — check back soon.
+                      </p>
+                    ) : (
+                      <>
+                        <ul>
+                          {cat.files.slice(0, 5).map((f) => (
+                            <li key={f.filename}>{f.title}</li>
+                          ))}
+                        </ul>
+                        <Link to={`/category/${cat.id}`} className="accordion-item__link">
+                          View all in {cat.name} <ArrowRight size={14} />
+                        </Link>
+                      </>
+                    )}
                   </div>
                 )}
               </div>

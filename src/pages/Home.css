@@ -107,6 +107,17 @@
   border-radius: 100px;
 }
 
+.accordion-item__count--soon {
+  color: var(--accent-green);
+  background: var(--accent-green-soft);
+}
+
+.accordion-item__soon-text {
+  font-size: 13.5px;
+  color: var(--text-secondary);
+  padding: 2px 0 4px;
+}
+
 .accordion-item__chevron {
   color: var(--text-tertiary);
   transition: transform 0.25s var(--ease);

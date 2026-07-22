@@ -59,3 +59,24 @@
   transform: translate(2px, -2px);
   color: var(--accent);
 }
+
+/* Coming soon — categories with no files yet (e.g. courses not started) */
+.category-card--soon {
+  border-style: dashed;
+}
+
+.category-card--soon .category-card__icon {
+  background: var(--accent-green-soft);
+  color: var(--accent-green);
+}
+
+.category-card__badge {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  color: var(--accent-green);
+  background: var(--accent-green-soft);
+  border: 1px solid var(--accent-green-border);
+  padding: 3px 9px;
+  border-radius: 100px;
+}

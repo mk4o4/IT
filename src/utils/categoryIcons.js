@@ -1,6 +1,7 @@
 import {
   Network, Cpu, Code2, Sigma, BookOpen, FlaskConical,
   Database, Globe, Shapes, Calculator, Binary, Layers,
+  Monitor, FileText, Table2,
 } from 'lucide-react'
 
 // Maps the "icon" string in resources.json to a lucide-react component.
@@ -18,6 +19,9 @@ const ICONS = {
   calculator: Calculator,
   binary: Binary,
   layers: Layers,
+  monitor: Monitor,
+  filetext: FileText,
+  table: Table2,
 }
 
 export function getCategoryIcon(name) {

@@ -1,0 +1,4 @@
+Drop your PDF files for this category into this folder, then add a
+matching entry in public/data/resources.json — see the README for the
+exact format. You can delete this text file once you've added your first
+real PDF (it isn't referenced anywhere and won't show up on the site).

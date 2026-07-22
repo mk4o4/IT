@@ -16,14 +16,21 @@
   --text-secondary: #9AA1AC;
   --text-tertiary: #656C77;
 
-  /* Accent — change this single value to re-theme the site */
-  --accent: #6C8CFF;
-  --accent-hover: #86A2FF;
-  --accent-soft: rgba(108, 140, 255, 0.12);
-  --accent-border: rgba(108, 140, 255, 0.35);
+  /* Accent — change this single value to re-theme the site.
+     Tuned to Hunar Institute's logo: sky blue primary, leaf green secondary. */
+  --accent: #2F86E8;
+  --accent-hover: #4E9DF2;
+  --accent-soft: rgba(47, 134, 232, 0.14);
+  --accent-border: rgba(47, 134, 232, 0.38);
+
+  /* Secondary accent (leaf green from the institute logo) — used sparingly
+     for "coming soon" badges, the live-status dot, and small highlights. */
+  --accent-green: #2FA84F;
+  --accent-green-soft: rgba(47, 168, 79, 0.16);
+  --accent-green-border: rgba(47, 168, 79, 0.4);
 
   /* Feedback */
-  --success: #4ADE80;
+  --success: #2FA84F;
 
   /* Type */
   --font-display: 'Space Grotesk', 'Inter', sans-serif;

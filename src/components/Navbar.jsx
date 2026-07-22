@@ -30,7 +30,7 @@ export default function Navbar({ siteTitle }) {
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''} glass`}>
       <div className="container navbar__inner">
         <Link to="/" className="navbar__brand" onClick={close}>
-          <span className="navbar__brand-mark" aria-hidden="true">▣</span>
+          <img src={`${import.meta.env.BASE_URL}logo.jpg`} alt="" className="navbar__logo" />
           {siteTitle}
         </Link>
 
