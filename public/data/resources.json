@@ -1,0 +1,112 @@
+{
+  "siteTitle": "Archive",
+  "siteTagline": "Every lecture note, cheat sheet, and reference — in one place, ready to download.",
+  "categories": [
+    {
+      "id": "computer-networks",
+      "name": "Computer Networks",
+      "icon": "network",
+      "description": "Protocols, layers, routing, and everything in between.",
+      "folder": "Computer-Networks",
+      "files": [
+        {
+          "title": "Introduction to Networking",
+          "description": "OSI vs TCP/IP models, with annotated diagrams.",
+          "filename": "intro-to-networking.pdf",
+          "size": "2.3 MB",
+          "date": "2026-07-20"
+        },
+        {
+          "title": "Routing Algorithms Cheat Sheet",
+          "description": "Distance vector vs link state, quick comparison.",
+          "filename": "routing-algorithms.pdf",
+          "size": "860 KB",
+          "date": "2026-07-15"
+        },
+        {
+          "title": "TCP Congestion Control",
+          "description": "Slow start, congestion avoidance, fast recovery.",
+          "filename": "tcp-congestion-control.pdf",
+          "size": "1.1 MB",
+          "date": "2026-06-30"
+        }
+      ]
+    },
+    {
+      "id": "operating-systems",
+      "name": "Operating Systems",
+      "icon": "cpu",
+      "description": "Processes, memory, scheduling, and file systems.",
+      "folder": "Operating-Systems",
+      "files": [
+        {
+          "title": "Process Scheduling Algorithms",
+          "description": "FCFS, SJF, Round Robin, and priority scheduling.",
+          "filename": "process-scheduling.pdf",
+          "size": "1.8 MB",
+          "date": "2026-07-18"
+        },
+        {
+          "title": "Memory Management Notes",
+          "description": "Paging, segmentation, and virtual memory.",
+          "filename": "memory-management.pdf",
+          "size": "2.6 MB",
+          "date": "2026-07-02"
+        }
+      ]
+    },
+    {
+      "id": "programming",
+      "name": "Programming",
+      "icon": "code",
+      "description": "Language fundamentals, data structures, and patterns.",
+      "folder": "Programming",
+      "files": [
+        {
+          "title": "Data Structures Quick Reference",
+          "description": "Big-O tables for common structures and operations.",
+          "filename": "data-structures-reference.pdf",
+          "size": "950 KB",
+          "date": "2026-07-19"
+        },
+        {
+          "title": "Recursion & Backtracking",
+          "description": "Worked examples with recursion trees.",
+          "filename": "recursion-backtracking.pdf",
+          "size": "1.4 MB",
+          "date": "2026-06-25"
+        },
+        {
+          "title": "Object-Oriented Design Patterns",
+          "description": "Singleton, Factory, Observer, and Strategy patterns.",
+          "filename": "oop-design-patterns.pdf",
+          "size": "2.0 MB",
+          "date": "2026-06-10"
+        }
+      ]
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "icon": "sigma",
+      "description": "Linear algebra, calculus, and discrete math.",
+      "folder": "Mathematics",
+      "files": [
+        {
+          "title": "Linear Algebra Essentials",
+          "description": "Vectors, matrices, eigenvalues — with proofs.",
+          "filename": "linear-algebra-essentials.pdf",
+          "size": "3.1 MB",
+          "date": "2026-07-05"
+        },
+        {
+          "title": "Discrete Math Problem Set",
+          "description": "Set theory, combinatorics, and graph basics.",
+          "filename": "discrete-math-problems.pdf",
+          "size": "1.2 MB",
+          "date": "2026-05-28"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+.favorites-page {
+  padding-top: 32px;
+  padding-bottom: 60px;
+}
+
+.favorites-page__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.favorites-page__icon {
+  color: #FBBF24;
+}
+
+.favorites-page__header h1 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.favorites-page__hint {
+  font-size: 13.5px;
+  color: var(--text-tertiary);
+  margin-bottom: 28px;
+}
+
+.favorites-page__recent {
+  margin-top: 56px;
+}
+
+.favorites-page__recent h2 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
