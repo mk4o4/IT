@@ -54,22 +54,50 @@
       "id": "browsing-internet-email",
       "name": "Browsing Internet & Managing Emails",
       "icon": "globe",
-      "description": "Safe browsing habits and everyday email management.",
+      "description": "A 16-chapter course on browsers, safe browsing, and everyday email management.",
       "folder": "Browsing-Internet-Email",
       "files": [
         {
-          "title": "Web Browsing Basics",
-          "description": "Browsers, search engines, bookmarks, and safe browsing tips.",
-          "filename": "web-browsing-basics.pdf",
-          "size": "980 KB",
-          "date": "2026-07-12"
+          "title": "Chapter 1 · Internet Fundamentals",
+          "description": "What the internet is, how it works, and how to search.",
+          "filename": "Ch01-Internet-Fundamentals.pdf",
+          "size": "7.7 MB",
+          "date": "2026-06-15"
         },
         {
-          "title": "Creating & Managing an Email Account",
-          "description": "Signing up, composing, attachments, and inbox organization.",
-          "filename": "email-account-management.pdf",
-          "size": "1.0 MB",
-          "date": "2026-06-28"
+          "title": "Chapter 2 · Web Browsers",
+          "description": "Exploring browsers, their features, and how to use them.",
+          "filename": "Ch02-Web-Browsers.pdf",
+          "size": "4.0 MB",
+          "date": "2026-06-22"
+        },
+        {
+          "title": "Chapter 3 · Effective Browsing",
+          "description": "Navigation, tabs, history, and smart search techniques.",
+          "filename": "Ch03-Effective-Browsing.pdf",
+          "size": "7.6 MB",
+          "date": "2026-06-29"
+        },
+        {
+          "title": "Chapter 4 · Download & Upload",
+          "description": "Managing file transfers between your device and the internet.",
+          "filename": "Ch04-Download-Upload.pdf",
+          "size": "4.0 MB",
+          "date": "2026-07-06"
+        },
+        {
+          "title": "Chapter 5 · Browser Settings",
+          "description": "Customising your browser for security, privacy, and efficiency.",
+          "filename": "Ch05-Browser-Settings.pdf",
+          "size": "7.7 MB",
+          "date": "2026-07-13"
+        },
+        {
+          "title": "Chapter 6 · Extensions",
+          "description": "Enhancing browser functionality with add-ons.",
+          "filename": "Ch06-Extensions.pdf",
+          "size": "7.7 MB",
+          "date": "2026-07-20"
         }
       ]
     },
