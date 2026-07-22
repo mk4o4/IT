@@ -1,13 +1,19 @@
 import { Link } from 'react-router-dom'
 import './Footer.css'
 
-export default function Footer({ siteTitle }) {
+export default function Footer({ siteTitle, author, institute }) {
   return (
     <footer className="footer">
       <div className="container footer__inner">
         <div>
           <p className="footer__brand">{siteTitle}</p>
           <p className="footer__note">A free, static library of study materials. No sign-in, no tracking.</p>
+          {(author || institute) && (
+            <p className="footer__credit">
+              Maintained by {author}
+              {institute && <> · {institute}</>}
+            </p>
+          )}
         </div>
         <nav className="footer__links" aria-label="Footer">
           <Link to="/">Home</Link>

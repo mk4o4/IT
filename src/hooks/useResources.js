@@ -51,6 +51,8 @@ export function useResources() {
     status,
     siteTitle: data?.siteTitle ?? 'Archive',
     siteTagline: data?.siteTagline ?? '',
+    author: data?.author ?? '',
+    institute: data?.institute ?? '',
     categories,
     allFiles,
     totalResources,

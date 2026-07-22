@@ -1,6 +1,8 @@
 {
   "siteTitle": "Archive",
   "siteTagline": "Every lecture note, cheat sheet, and reference — in one place, ready to download.",
+  "author": "M.Khan Jamali",
+  "institute": "Hunar Institute of Vocational Training, Dadu",
   "categories": [
     {
       "id": "computer-networks",

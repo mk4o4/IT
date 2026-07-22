@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ChevronDown, ArrowRight, Clock } from 'lucide-react'
+import { ChevronDown, ArrowRight, Clock, GraduationCap } from 'lucide-react'
 import Hero from '../components/Hero'
 import CategoryCard from '../components/CategoryCard'
 import ResourceCard from '../components/ResourceCard'
@@ -10,7 +10,7 @@ import { getCategoryIcon } from '../utils/categoryIcons'
 import './Home.css'
 
 export default function Home({ resources }) {
-  const { status, siteTitle, siteTagline, categories, totalResources, recentFiles } = resources
+  const { status, siteTitle, siteTagline, author, institute, categories, totalResources, recentFiles } = resources
   const [expanded, setExpanded] = useState(null)
 
   if (status === 'loading') return <LoadingSpinner />
@@ -35,6 +35,18 @@ export default function Home({ resources }) {
         totalResources={totalResources}
         categoryCount={categories.length}
       />
+
+      {(author || institute) && (
+        <div className="container">
+          <div className="about-strip">
+            <GraduationCap size={16} aria-hidden="true" />
+            <span>
+              Curated by <strong>{author}</strong>
+              {institute && <> — {institute}</>}
+            </span>
+          </div>
+        </div>
+      )}
 
       <section className="container section">
         <div className="section__header">

@@ -38,7 +38,7 @@ export default function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
-      <Footer siteTitle={resources.siteTitle} />
+      <Footer siteTitle={resources.siteTitle} author={resources.author} institute={resources.institute} />
       <ScrollToTop />
     </ThemeProvider>
   )
