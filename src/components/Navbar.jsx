@@ -38,6 +38,7 @@ export default function Navbar({ siteTitle }) {
           <Link to="/">Home</Link>
           <Link to="/search">Search</Link>
           <Link to="/favorites">Favorites</Link>
+          <Link to="/about">About</Link>
         </nav>
 
         <form className="navbar__quicksearch" onSubmit={handleQuickSearch} role="search">
@@ -74,6 +75,7 @@ export default function Navbar({ siteTitle }) {
           <Link to="/" onClick={close}>Home</Link>
           <Link to="/search" onClick={close}>Search</Link>
           <Link to="/favorites" onClick={close}>Favorites</Link>
+          <Link to="/about" onClick={close}>About</Link>
         </div>
       )}
     </header>

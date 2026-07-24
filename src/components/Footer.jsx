@@ -20,6 +20,7 @@ export default function Footer({ siteTitle, author, institute }) {
           <Link to="/">Home</Link>
           <Link to="/search">Search</Link>
           <Link to="/favorites">Favorites</Link>
+          <Link to="/about">About</Link>
         </nav>
       </div>
       <div className="container">

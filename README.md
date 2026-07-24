@@ -147,14 +147,18 @@ Almost the entire visual identity lives in `src/index.css` under
 `:root { ... }`. To change the accent color site-wide, edit these lines:
 
 ```css
---accent: #2F86E8;        /* primary blue — buttons, links, focus states */
---accent-hover: #4E9DF2;  /* lighter shade for hover states */
---accent-green: #2FA84F;  /* secondary green — "Coming soon" badges, status dot */
+--accent: #38BDF8;        /* sky blue — buttons, links, focus states */
+--accent-hover: #5FCCFA;  /* lighter shade for hover states */
+--accent-text: #38BDF8;   /* deeper in light mode — kept legible as small text */
+--accent-green: #34D399;  /* mint green — "Coming soon" badges, status dot */
 ```
 
-The current palette (blue, green, white) is pulled directly from the
-institute logo. Fonts, radii, and shadows are also defined there as CSS
-variables if you want to adjust the overall feel.
+The current palette ("Sky & mint") plus fonts, radii, and shadows are all
+defined there as CSS variables if you want to adjust the overall feel.
+Note that `--accent-text` / `--accent-green-text` are separate, deeper
+shades used only where the accent color is small text on a light
+background — this keeps badges and links readable in light mode without
+dulling the vivid buttons.
 
 ---
 

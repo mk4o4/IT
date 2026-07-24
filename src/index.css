@@ -17,20 +17,26 @@
   --text-tertiary: #656C77;
 
   /* Accent — change this single value to re-theme the site.
-     Tuned to Hunar Institute's logo: sky blue primary, leaf green secondary. */
-  --accent: #2F86E8;
-  --accent-hover: #4E9DF2;
-  --accent-soft: rgba(47, 134, 232, 0.14);
-  --accent-border: rgba(47, 134, 232, 0.38);
+     "Sky & mint": bright sky blue primary, mint green secondary. */
+  --accent: #38BDF8;
+  --accent-hover: #5FCCFA;
+  --accent-soft: rgba(56, 189, 248, 0.14);
+  --accent-border: rgba(56, 189, 248, 0.4);
+  /* Deeper variant used wherever accent color is TEXT rather than a filled
+     button — keeps small labels readable in light mode without dulling
+     the vivid buttons/focus rings. Same as --accent in dark mode, where
+     the near-black background gives plenty of contrast either way. */
+  --accent-text: #38BDF8;
 
-  /* Secondary accent (leaf green from the institute logo) — used sparingly
-     for "coming soon" badges, the live-status dot, and small highlights. */
-  --accent-green: #2FA84F;
-  --accent-green-soft: rgba(47, 168, 79, 0.16);
-  --accent-green-border: rgba(47, 168, 79, 0.4);
+  /* Secondary accent (mint) — used sparingly for "coming soon" badges,
+     the live-status dot, and small highlights. */
+  --accent-green: #34D399;
+  --accent-green-soft: rgba(52, 211, 153, 0.16);
+  --accent-green-border: rgba(52, 211, 153, 0.42);
+  --accent-green-text: #34D399;
 
   /* Feedback */
-  --success: #2FA84F;
+  --success: #34D399;
 
   /* Type */
   --font-display: 'Space Grotesk', 'Inter', sans-serif;
@@ -42,7 +48,7 @@
   --radius-md: 14px;
   --radius-lg: 20px;
   --shadow-soft: 0 1px 2px rgba(0,0,0,0.4), 0 12px 32px -12px rgba(0,0,0,0.55);
-  --shadow-glow: 0 0 0 1px var(--accent-border), 0 8px 24px -8px rgba(108,140,255,0.35);
+  --shadow-glow: 0 0 0 1px var(--accent-border), 0 8px 24px -8px rgba(56, 189, 248, 0.35);
 
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
   color-scheme: dark;
@@ -60,6 +66,10 @@
   --text-secondary: #565C66;
   --text-tertiary: #8A909A;
   --shadow-soft: 0 1px 2px rgba(20,20,20,0.06), 0 12px 32px -14px rgba(20,20,20,0.18);
+  /* Deeper shades of the accent colors for legible text on light surfaces —
+     the vivid button/badge fills (--accent, --accent-green) stay the same. */
+  --accent-text: #0369A1;
+  --accent-green-text: #047857;
   color-scheme: light;
 }
 

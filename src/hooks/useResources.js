@@ -53,6 +53,7 @@ export function useResources() {
     siteTagline: data?.siteTagline ?? '',
     author: data?.author ?? '',
     institute: data?.institute ?? '',
+    aboutText: data?.aboutText ?? '',
     categories,
     allFiles,
     totalResources,

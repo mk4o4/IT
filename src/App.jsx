@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import CategoryPage from './pages/CategoryPage'
 import SearchPage from './pages/SearchPage'
 import FavoritesPage from './pages/FavoritesPage'
+import AboutPage from './pages/AboutPage'
 import NotFoundPage from './pages/NotFoundPage'
 import { ThemeProvider } from './context/ThemeContext'
 import { useResources } from './hooks/useResources'
@@ -35,6 +36,7 @@ export default function App() {
           <Route path="/category/:categoryId" element={<CategoryPage resources={resources} />} />
           <Route path="/search" element={<SearchPage resources={resources} />} />
           <Route path="/favorites" element={<FavoritesPage resources={resources} />} />
+          <Route path="/about" element={<AboutPage resources={resources} />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>

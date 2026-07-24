@@ -6,24 +6,33 @@
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
-  transition: border-color 0.2s var(--ease), background 0.2s var(--ease);
+  transition: border-color 0.2s var(--ease), background 0.2s var(--ease),
+    transform 0.2s var(--ease), box-shadow 0.2s var(--ease);
 }
 
 .resource-card:hover {
   border-color: var(--border-strong);
   background: var(--bg-surface-2);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-soft);
 }
 
 .resource-card__icon {
   flex-shrink: 0;
   width: 40px;
   height: 40px;
+  transition: background 0.2s var(--ease), color 0.2s var(--ease);
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: var(--radius-sm);
   background: var(--accent-soft);
-  color: var(--accent);
+  color: var(--accent-text);
+}
+
+.resource-card:hover .resource-card__icon {
+  background: var(--accent);
+  color: #0B0D10;
 }
 
 .resource-card__body {

@@ -1,0 +1,97 @@
+.about-page {
+  padding-top: 32px;
+  padding-bottom: 60px;
+  max-width: 720px;
+}
+
+.about-page__header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.about-page__logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #fff;
+  box-shadow: 0 0 0 1px var(--border-strong);
+  flex-shrink: 0;
+}
+
+.about-page__header h1 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.about-page__institute {
+  margin-top: 4px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.about-page__text {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+}
+
+.about-page__stats {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.about-page__stat {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  color: var(--accent-text);
+}
+
+.about-page__stat div {
+  display: flex;
+  flex-direction: column;
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.about-page__stat strong {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+  font-family: var(--font-display);
+}
+
+.about-page__credit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 13.5px;
+  color: var(--text-secondary);
+}
+
+.about-page__credit svg {
+  color: var(--accent-text);
+  flex-shrink: 0;
+}
+
+.about-page__credit strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .about-page__stats {
+    flex-direction: column;
+  }
+}

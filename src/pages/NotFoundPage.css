@@ -6,7 +6,7 @@
 }
 
 .not-found__link {
-  color: var(--accent);
+  color: var(--accent-text);
   font-size: 14px;
   font-weight: 600;
 }

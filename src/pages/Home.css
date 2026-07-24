@@ -14,7 +14,7 @@
 }
 
 .about-strip svg {
-  color: var(--accent);
+  color: var(--accent-text);
   flex-shrink: 0;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .section__icon {
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .section__hint {
@@ -108,7 +108,7 @@
 }
 
 .accordion-item__count--soon {
-  color: var(--accent-green);
+  color: var(--accent-green-text);
   background: var(--accent-green-soft);
 }
 
@@ -165,7 +165,7 @@
   gap: 6px;
   font-size: 13px;
   font-weight: 600;
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 @keyframes expandDown {

@@ -8,6 +8,7 @@
 
 .navbar--scrolled {
   border-bottom: 1px solid var(--border-subtle);
+  box-shadow: 0 8px 24px -16px rgba(0, 0, 0, 0.4);
 }
 
 .navbar__inner {
