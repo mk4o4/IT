@@ -15,28 +15,28 @@
                 {
                     "title": "Unit 1 · Introduction to Computers",
                     "description": "What a computer is, the IPO cycle, history of computers, and types of computers.",
-                    "filename": "Unit01-Computer-Fundamentals.pdf",
+                    "filename": "Unit01_ComputerFundamentals.pdf",
                     "size": "7.7 MB",
                     "date": "2026-07-24"
                 },
                 {
                     "title": "Unit 2 · Parts of a Computer (Hardware)",
                     "description": "Internal hardware (CPU, RAM, hard disk, motherboard) and external peripherals.",
-                    "filename": "Unit02-Parts-of-a-Computer.pdf",
+                    "filename": "Unit02_PartsOfAComputer.pdf",
                     "size": "7.6 MB",
                     "date": "2026-07-24"
                 },
                 {
                     "title": "Unit 3 · Software",
                     "description": "System software vs application software, the operating system, and everyday apps.",
-                    "filename": "Unit03-Software.pdf",
+                    "filename": "Unit03_Software.pdf",
                     "size": "7.7 MB",
                     "date": "2026-07-24"
                 },
                 {
                     "title": "Unit 4 · Input & Output Devices",
                     "description": "The IPO cycle in detail, input devices, and output devices.",
-                    "filename": "Unit04-Input-Output-Devices.pdf",
+                    "filename": "Unit04_InputOutputDevices.pdf",
                     "size": "7.7 MB",
                     "date": "2026-07-24"
                 }
