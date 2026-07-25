@@ -27,6 +27,7 @@
   font-size: 17px;
   letter-spacing: -0.01em;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .navbar__logo {
@@ -43,6 +44,8 @@
   gap: 20px;
   font-size: 14px;
   color: var(--text-secondary);
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .navbar__links--desktop a {
@@ -53,6 +56,20 @@
   color: var(--text-primary);
 }
 
+/* Medium widths (tablets) — tighten gaps before things get tight,
+   since the quicksearch box below now flexes instead of overflowing. */
+@media (max-width: 1000px) {
+  .navbar__inner {
+    gap: 16px;
+  }
+  .navbar__links--desktop {
+    gap: 14px;
+  }
+}
+
+/* Fixed 220–260px caused real overflow around 760–950px viewports
+   (e.g. iPad portrait at 768px) once combined with the brand + links +
+   icons. Flexible width fixes it without changing the desktop look. */
 .navbar__quicksearch {
   display: flex;
   align-items: center;
@@ -63,13 +80,15 @@
   border: 1px solid var(--border-subtle);
   background: var(--bg-surface-2);
   color: var(--text-tertiary);
-  width: 220px;
+  width: clamp(120px, 16vw, 220px);
+  min-width: 0;
+  flex-shrink: 1;
   transition: border-color 0.2s var(--ease), width 0.3s var(--ease);
 }
 
 .navbar__quicksearch:focus-within {
   border-color: var(--accent-border);
-  width: 260px;
+  width: clamp(150px, 20vw, 260px);
 }
 
 .navbar__quicksearch input {
@@ -78,6 +97,7 @@
   outline: none;
   font-size: 13px;
   width: 100%;
+  min-width: 0;
   color: var(--text-primary);
 }
 
@@ -85,6 +105,8 @@
   display: flex;
   align-items: center;
   gap: 6px;
+  flex-shrink: 0;
+  margin-left: auto;
 }
 
 .navbar__icon-btn {

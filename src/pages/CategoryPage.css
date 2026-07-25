@@ -70,3 +70,17 @@
     align-self: flex-end;
   }
 }
+
+@media (max-width: 420px) {
+  .category-page__header {
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .category-page__icon {
+    width: 42px;
+    height: 42px;
+  }
+  .category-page__header h1 {
+    font-size: 21px;
+  }
+}

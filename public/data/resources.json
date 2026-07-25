@@ -15,28 +15,28 @@
                 {
                     "title": "Unit 1 · Introduction to Computers",
                     "description": "What a computer is, the IPO cycle, history of computers, and types of computers.",
-                    "filename": "Unit01-Computer-Fundamentals.pdf",
+                    "filename": "Unit01_ComputerFundamentals.pdf",
                     "size": "7.7 MB",
                     "date": "2026-07-24"
                 },
                 {
                     "title": "Unit 2 · Parts of a Computer (Hardware)",
                     "description": "Internal hardware (CPU, RAM, hard disk, motherboard) and external peripherals.",
-                    "filename": "Unit02-Parts-of-a-Computer.pdf",
+                    "filename": "Unit02_PartsOfAComputer.pdf",
                     "size": "7.6 MB",
                     "date": "2026-07-24"
                 },
                 {
                     "title": "Unit 3 · Software",
                     "description": "System software vs application software, the operating system, and everyday apps.",
-                    "filename": "Unit03-Software.pdf",
+                    "filename": "Unit03_Software.pdf",
                     "size": "7.7 MB",
                     "date": "2026-07-24"
                 },
                 {
                     "title": "Unit 4 · Input & Output Devices",
                     "description": "The IPO cycle in detail, input devices, and output devices.",
-                    "filename": "Unit04-Input-Output-Devices.pdf",
+                    "filename": "Unit04_InputOutputDevices.pdf",
                     "size": "7.7 MB",
                     "date": "2026-07-24"
                 }
@@ -50,18 +50,25 @@
             "folder": "MS-Word-Essentials",
             "files": [
                 {
-                    "title": "Getting Started with MS Word",
-                    "description": "Interface tour, typing, saving, and printing documents.",
-                    "filename": "getting-started-word.pdf",
-                    "size": "1.4 MB",
-                    "date": "2026-07-15"
+                    "title": "Chapter 1 · Getting Started with MS Word",
+                    "description": "Navigating the Word interface, creating & saving documents, opening existing files, and exporting to PDF.",
+                    "filename": "chapter-01-getting-started.pdf",
+                    "size": "204 KB",
+                    "date": "2026-07-11"
                 },
                 {
-                    "title": "Formatting & Page Layout",
-                    "description": "Fonts, styles, headers/footers, and page setup.",
-                    "filename": "formatting-page-layout.pdf",
-                    "size": "1.1 MB",
-                    "date": "2026-07-05"
+                    "title": "Chapter 2 · Basic Text Entry & Editing",
+                    "description": "Typing and cursor movement, selecting text, cut/copy/paste, and undo, redo, find & replace.",
+                    "filename": "chapter-02-basic-text-entry.pdf",
+                    "size": "164 KB",
+                    "date": "2026-07-18"
+                },
+                {
+                    "title": "Chapter 3 · Character Formatting",
+                    "description": "Bold, italic & underline, font & font size, font color & highlighting, and text effects & case.",
+                    "filename": "chapter-03-character-formatting.pdf",
+                    "size": "168 KB",
+                    "date": "2026-07-25"
                 }
             ]
         },
