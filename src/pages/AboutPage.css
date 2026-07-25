@@ -90,6 +90,24 @@
   font-weight: 600;
 }
 
+.about-page__credit--contact {
+  margin-top: 8px;
+  padding-top: 0;
+  border-top: none;
+}
+
+.about-page__credit--contact a {
+  color: var(--text-secondary);
+  text-decoration: underline;
+  text-decoration-color: var(--border-strong);
+  text-underline-offset: 2px;
+  transition: color 0.2s var(--ease);
+}
+
+.about-page__credit--contact a:hover {
+  color: var(--accent-text);
+}
+
 @media (max-width: 480px) {
   .about-page__stats {
     flex-direction: column;

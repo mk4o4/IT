@@ -1,7 +1,9 @@
-import { FileText, FolderOpen, GraduationCap } from 'lucide-react'
+import { FileText, FolderOpen, GraduationCap, Mail } from 'lucide-react'
 import Breadcrumbs from '../components/Breadcrumbs'
 import LoadingSpinner from '../components/LoadingSpinner'
 import './AboutPage.css'
+
+const CONTACT_EMAIL = 'mkjamali37@gmail.com'
 
 export default function AboutPage({ resources }) {
   const { status, siteTitle, aboutText, author, institute, totalResources, categories } = resources
@@ -49,6 +51,18 @@ export default function AboutPage({ resources }) {
           <span>Maintained by <strong>{author}</strong>{institute && <> — {institute}</>}</span>
         </div>
       )}
+
+      <div className="about-page__credit about-page__credit--contact">
+        <Mail size={18} aria-hidden="true" />
+        <span>
+          Questions or corrections?{' '}
+          <a
+            href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`${siteTitle} — Question`)}`}
+          >
+            {CONTACT_EMAIL}
+          </a>
+        </span>
+      </div>
     </div>
   )
 }
