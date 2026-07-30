@@ -39,6 +39,20 @@
                     "filename": "Unit04_InputOutputDevices.pdf",
                     "size": "7.7 MB",
                     "date": "2026-07-24"
+                },
+                {
+                    "title": "Unit 5 · Storage Devices",
+                    "description": "Primary vs. secondary storage, units of storage (Bit to Petabyte), and storage devices like HDD, SSD, USB, and Cloud.",
+                    "filename": "Unit05_StorageDevices.pdf",
+                    "size": "7.7 MB",
+                    "date": "2026-07-31"
+                },
+                {
+                    "title": "Unit 7 · Operating Systems",
+                    "description": "What an operating system is, what it does, popular desktop and mobile systems, and how a computer starts up.",
+                    "filename": "Unit07_OperatingSystems.pdf",
+                    "size": "7.7 MB",
+                    "date": "2026-08-07"
                 }
             ]
         },
@@ -127,6 +141,13 @@
                     "filename": "Ch07-Bookmarks.pdf",
                     "size": "7.7 MB",
                     "date": "2026-07-27"
+                },
+                {
+                    "title": "Chapter 8 · Email Introduction",
+                    "description": "How email works (compose, SMTP, DNS lookup, delivery), comparing providers like Gmail and Outlook, and reading a valid email address.",
+                    "filename": "Ch08-Email-Introduction.pdf",
+                    "size": "4.0 MB",
+                    "date": "2026-08-03"
                 }
             ]
         },
