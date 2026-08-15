@@ -1,9 +1,9 @@
 {
     "siteTitle": "Hunar IT Hub",
-    "siteTagline": "Class notes, practical guides, and cheat sheets for the IT program at Hunar Institute — free to download, anytime.",
+    "siteTagline": "Class notes, practical guides, and cheat sheets for the IT program at Hunar Institute \u2014 free to download, anytime.",
     "author": "M.Khan Jamali",
     "institute": "Hunar Institute of Vocational Training, Dadu",
-    "aboutText": "Hunar IT Hub is a free, open library of class notes for the IT program at Hunar Institute of Vocational Training, Dadu. Every file here is the same material covered in class, organized into a searchable archive — so revising for a test or catching up after missing a session takes minutes, not a message to your teacher. No sign-in, no fees, no ads.",
+    "aboutText": "Hunar IT Hub is a free, open library of class notes for the IT program at Hunar Institute of Vocational Training, Dadu. Every file here is the same material covered in class, organized into a searchable archive \u2014 so revising for a test or catching up after missing a session takes minutes, not a message to your teacher. No sign-in, no fees, no ads.",
     "categories": [
         {
             "id": "computer-fundamentals",
@@ -13,63 +13,63 @@
             "folder": "Computer-Fundamentals",
             "files": [
                 {
-                    "title": "Unit 1 · Introduction to Computers",
+                    "title": "Unit 1 \u00b7 Introduction to Computers",
                     "description": "What a computer is, the IPO cycle, history of computers, and types of computers.",
                     "filename": "Unit01_ComputerFundamentals.pdf",
                     "size": "7.7 MB",
                     "date": "2026-07-24"
                 },
                 {
-                    "title": "Unit 2 · Parts of a Computer (Hardware)",
+                    "title": "Unit 2 \u00b7 Parts of a Computer (Hardware)",
                     "description": "Internal hardware (CPU, RAM, hard disk, motherboard) and external peripherals.",
                     "filename": "Unit02_PartsOfAComputer.pdf",
                     "size": "7.6 MB",
                     "date": "2026-07-24"
                 },
                 {
-                    "title": "Unit 3 · Software",
+                    "title": "Unit 3 \u00b7 Software",
                     "description": "System software vs application software, the operating system, and everyday apps.",
                     "filename": "Unit03_Software.pdf",
                     "size": "7.7 MB",
                     "date": "2026-07-24"
                 },
                 {
-                    "title": "Unit 4 · Input & Output Devices",
+                    "title": "Unit 4 \u00b7 Input & Output Devices",
                     "description": "The IPO cycle in detail, input devices, and output devices.",
                     "filename": "Unit04_InputOutputDevices.pdf",
                     "size": "7.7 MB",
                     "date": "2026-07-24"
                 },
                 {
-                    "title": "Unit 5 · Storage Devices",
+                    "title": "Unit 5 \u00b7 Storage Devices",
                     "description": "Primary vs. secondary storage, units of storage (Bit to Petabyte), and storage devices like HDD, SSD, USB, and Cloud.",
                     "filename": "Unit05_StorageDevices.pdf",
                     "size": "7.7 MB",
                     "date": "2026-07-31"
                 },
                 {
-                    "title": "Unit 7 · Operating Systems",
+                    "title": "Unit 7 \u00b7 Operating Systems",
                     "description": "What an operating system is, what it does, popular desktop and mobile systems, and how a computer starts up.",
                     "filename": "Unit07_OperatingSystems.pdf",
                     "size": "7.7 MB",
                     "date": "2026-08-07"
                 },
                 {
-                    "title": "Unit 8 · The Windows Desktop",
+                    "title": "Unit 8 \u00b7 The Windows Desktop",
                     "description": "The Desktop, parts of the screen, taskbar & system tray, finding programs, and window buttons (minimize, maximize, close, move & resize).",
                     "filename": "Unit08_WindowsDesktop.pdf",
                     "size": "7.7 MB",
                     "date": "2026-08-14"
                 },
                 {
-                    "title": "Unit 9 · Mouse & Keyboard Skills",
+                    "title": "Unit 9 \u00b7 Mouse & Keyboard Skills",
                     "description": "Mouse actions (click, double-click, right-click, drag, scroll), keyboard shortcuts, deleting files safely, and special keys.",
                     "filename": "Unit09_MouseKeyboardSkills.pdf",
                     "size": "7.7 MB",
                     "date": "2026-08-21"
                 },
                 {
-                    "title": "Unit 10 · File Management (Part 1)",
+                    "title": "Unit 10 \u00b7 File Management (Part 1)",
                     "description": "What files and folders are, common file types, File Explorer, creating and renaming files/folders, and naming rules.",
                     "filename": "Unit10_File_Management_Part1.pdf",
                     "size": "7.7 MB",
@@ -85,56 +85,56 @@
             "folder": "MS-Word-Essentials",
             "files": [
                 {
-                    "title": "Chapter 1 · Getting Started with MS Word",
+                    "title": "Chapter 1 \u00b7 Getting Started with MS Word",
                     "description": "Navigating the Word interface, creating & saving documents, opening existing files, and exporting to PDF.",
                     "filename": "chapter-01-getting-started.pdf",
                     "size": "204 KB",
                     "date": "2026-07-11"
                 },
                 {
-                    "title": "Chapter 2 · Basic Text Entry & Editing",
+                    "title": "Chapter 2 \u00b7 Basic Text Entry & Editing",
                     "description": "Typing and cursor movement, selecting text, cut/copy/paste, and undo, redo, find & replace.",
                     "filename": "chapter-02-basic-text-entry.pdf",
                     "size": "164 KB",
                     "date": "2026-07-18"
                 },
                 {
-                    "title": "Chapter 3 · Character Formatting",
+                    "title": "Chapter 3 \u00b7 Character Formatting",
                     "description": "Bold, italic & underline, font & font size, font color & highlighting, and text effects & case.",
                     "filename": "chapter-03-character-formatting.pdf",
                     "size": "168 KB",
                     "date": "2026-07-25"
                 },
                 {
-                    "title": "Chapter 4 · Paragraph Formatting",
+                    "title": "Chapter 4 \u00b7 Paragraph Formatting",
                     "description": "Paragraph alignment, line & paragraph spacing, indents, and borders & shading.",
                     "filename": "chapter-04-paragraph-formatting.pdf",
                     "size": "165 KB",
                     "date": "2026-08-01"
                 },
                 {
-                    "title": "Chapter 6 · Working with Lists",
+                    "title": "Chapter 6 \u00b7 Working with Lists",
                     "description": "Bulleted lists, numbered lists, multilevel lists, and customizing list styles.",
                     "filename": "chapter-06-working-with-lists.pdf",
                     "size": "166 KB",
                     "date": "2026-08-08"
                 },
                 {
-                    "title": "Chapter 7 · Page Setup & Layout",
+                    "title": "Chapter 7 \u00b7 Page Setup & Layout",
                     "description": "Margins, orientation & paper size, columns, and page & section breaks.",
                     "filename": "chapter-07-page-setup-layout.pdf",
                     "size": "166 KB",
                     "date": "2026-08-15"
                 },
                 {
-                    "title": "Chapter 8 · Headers, Footers & Page Numbers",
+                    "title": "Chapter 8 \u00b7 Headers, Footers & Page Numbers",
                     "description": "Headers, footers, page numbers, and different first-page/odd-even settings.",
                     "filename": "chapter-08-headers-footers-page-numbers.pdf",
                     "size": "165 KB",
                     "date": "2026-08-22"
                 },
                 {
-                    "title": "Chapter 9 · Working with Tables",
+                    "title": "Chapter 9 \u00b7 Working with Tables",
                     "description": "Inserting tables, adding/removing rows & columns, formatting table styles, and merging, splitting & sorting table data.",
                     "filename": "chapter-09-working-with-tables.pdf",
                     "size": "153 KB",
@@ -150,81 +150,116 @@
             "folder": "Browsing-Internet-Email",
             "files": [
                 {
-                    "title": "Chapter 1 · Internet Fundamentals",
+                    "title": "Chapter 1 \u00b7 Internet Fundamentals",
                     "description": "What the internet is, how it works, and how to search.",
                     "filename": "Ch01-Internet-Fundamentals.pdf",
                     "size": "7.7 MB",
                     "date": "2026-06-15"
                 },
                 {
-                    "title": "Chapter 2 · Web Browsers",
+                    "title": "Chapter 2 \u00b7 Web Browsers",
                     "description": "Exploring browsers, their features, and how to use them.",
                     "filename": "Ch02-Web-Browsers.pdf",
                     "size": "4.0 MB",
                     "date": "2026-06-22"
                 },
                 {
-                    "title": "Chapter 3 · Effective Browsing",
+                    "title": "Chapter 3 \u00b7 Effective Browsing",
                     "description": "Navigation, tabs, history, and smart search techniques.",
                     "filename": "Ch03-Effective-Browsing.pdf",
                     "size": "7.6 MB",
                     "date": "2026-06-29"
                 },
                 {
-                    "title": "Chapter 4 · Download & Upload",
+                    "title": "Chapter 4 \u00b7 Download & Upload",
                     "description": "Managing file transfers between your device and the internet.",
                     "filename": "Ch04-Download-Upload.pdf",
                     "size": "4.0 MB",
                     "date": "2026-07-06"
                 },
                 {
-                    "title": "Chapter 5 · Browser Settings",
+                    "title": "Chapter 5 \u00b7 Browser Settings",
                     "description": "Customising your browser for security, privacy, and efficiency.",
                     "filename": "Ch05-Browser-Settings.pdf",
                     "size": "7.7 MB",
                     "date": "2026-07-13"
                 },
                 {
-                    "title": "Chapter 6 · Extensions",
+                    "title": "Chapter 6 \u00b7 Extensions",
                     "description": "Enhancing browser functionality with add-ons.",
                     "filename": "Ch06-Extensions.pdf",
                     "size": "7.7 MB",
                     "date": "2026-07-20"
                 },
                 {
-                    "title": "Chapter 7 · Bookmarks",
+                    "title": "Chapter 7 \u00b7 Bookmarks",
                     "description": "Understanding bookmarks vs. history, creating and organizing bookmarks with folders, and syncing or backing them up.",
                     "filename": "Ch07-Bookmarks.pdf",
                     "size": "7.7 MB",
                     "date": "2026-07-27"
                 },
                 {
-                    "title": "Chapter 8 · Email Introduction",
+                    "title": "Chapter 8 \u00b7 Email Introduction",
                     "description": "How email works (compose, SMTP, DNS lookup, delivery), comparing providers like Gmail and Outlook, and reading a valid email address.",
                     "filename": "Ch08-Email-Introduction.pdf",
                     "size": "4.0 MB",
                     "date": "2026-08-03"
                 },
                 {
-                    "title": "Chapter 10 · Email Settings",
+                    "title": "Chapter 9 \u00b7 Creating Accounts",
+                    "description": "Step-by-step Gmail signup, setting up Outlook or ProtonMail, enabling two-factor authentication, personal vs. professional email, and logging in/out securely.",
+                    "filename": "Ch09-Creating-Accounts.pdf",
+                    "size": "7.6 MB",
+                    "date": "2026-08-05"
+                },
+                {
+                    "title": "Chapter 10 \u00b7 Email Settings",
                     "description": "Accessing email settings, creating a signature, strengthening account security, and backing up & restoring emails.",
                     "filename": "Ch10-Email-Settings.pdf",
                     "size": "7.7 MB",
                     "date": "2026-08-10"
                 },
                 {
-                    "title": "Chapter 11 · Composing Emails",
+                    "title": "Chapter 11 \u00b7 Composing Emails",
                     "description": "Composing a new email, using To/CC/BCC correctly, writing effective subject lines, and formatting & sending emails.",
                     "filename": "Ch11-Composing-Emails.pdf",
                     "size": "7.7 MB",
                     "date": "2026-08-17"
                 },
                 {
-                    "title": "Chapter 12 · Attachments",
+                    "title": "Chapter 12 \u00b7 Attachments",
                     "description": "Attaching files to emails, common file types, downloading attachments safely, and spotting suspicious attachments.",
                     "filename": "Ch12-Attachments.pdf",
                     "size": "7.6 MB",
                     "date": "2026-08-24"
+                },
+                {
+                    "title": "Chapter 13 \u00b7 Managing Spam",
+                    "description": "Understanding spam, spotting warning signs, managing your spam folder, and preventing spam proactively.",
+                    "filename": "Ch13-Managing-Spam.pdf",
+                    "size": "7.7 MB",
+                    "date": "2026-08-31"
+                },
+                {
+                    "title": "Chapter 14 \u00b7 Email Organization",
+                    "description": "Organizing with folders and labels, searching and filtering, starring/flagging, and email etiquette.",
+                    "filename": "Ch14-Email-Organization.pdf",
+                    "size": "7.6 MB",
+                    "date": "2026-09-07"
+                },
+                {
+                    "title": "Chapter 15 \u00b7 Internet Safety",
+                    "description": "Recognizing phishing and scams, safe browsing habits, passwords and account security, and protecting your privacy online.",
+                    "filename": "Ch15-Internet-Safety.pdf",
+                    "size": "204 KB",
+                    "date": "2026-09-14"
+                },
+                {
+                    "title": "Chapter 16 \u00b7 Cloud Storage",
+                    "description": "What cloud storage is, uploading and organizing files, sharing and collaboration, and syncing across devices.",
+                    "filename": "Ch16-Cloud-Storage.pdf",
+                    "size": "204 KB",
+                    "date": "2026-09-21"
                 }
             ]
         },
