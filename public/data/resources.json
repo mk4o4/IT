@@ -139,6 +139,62 @@
                     "filename": "chapter-09-working-with-tables.pdf",
                     "size": "153 KB",
                     "date": "2026-08-29"
+                },
+                {
+                    "title": "Chapter 11 \u00b7 Inserting Images & Shapes",
+                    "description": "Inserting pictures and shapes, wrapping text around images, and resizing, moving & formatting objects.",
+                    "filename": "chapter-11-inserting-images-shapes.pdf",
+                    "size": "164 KB",
+                    "date": "2026-09-12"
+                },
+                {
+                    "title": "Chapter 12 \u00b7 Styles & Themes",
+                    "description": "Applying built-in styles, using document themes, modifying an existing style, and creating a custom style.",
+                    "filename": "chapter-12-styles-themes.pdf",
+                    "size": "162 KB",
+                    "date": "2026-09-19"
+                },
+                {
+                    "title": "Chapter 13 \u00b7 Using Templates",
+                    "description": "What templates are, using a built-in template, finding templates online, and saving your own template.",
+                    "filename": "chapter-13-using-templates.pdf",
+                    "size": "162 KB",
+                    "date": "2026-09-26"
+                },
+                {
+                    "title": "Chapter 14 \u00b7 Spelling, Grammar & Proofing",
+                    "description": "Running a spelling & grammar check, understanding the underlines, using the Editor pane, and AutoCorrect & Thesaurus.",
+                    "filename": "chapter-14-spelling-grammar-proofing.pdf",
+                    "size": "163 KB",
+                    "date": "2026-10-03"
+                },
+                {
+                    "title": "Chapter 16 \u00b7 Track Changes & Reviewing",
+                    "description": "Turning on Track Changes, reading tracked changes, accepting & rejecting changes, and adding comments.",
+                    "filename": "chapter-16-track-changes-reviewing.pdf",
+                    "size": "160 KB",
+                    "date": "2026-10-17"
+                },
+                {
+                    "title": "Chapter 17 \u00b7 Mail Merge Basics",
+                    "description": "Understanding what mail merge is, setting up a data source, inserting merge fields, and completing the merge.",
+                    "filename": "chapter-17-mail-merge-basics.pdf",
+                    "size": "160 KB",
+                    "date": "2026-10-24"
+                },
+                {
+                    "title": "Chapter 18 \u00b7 Long Documents: TOC & Footnotes",
+                    "description": "Building & updating a Table of Contents, adding footnotes & endnotes, and navigating long documents.",
+                    "filename": "chapter-18-long-documents-toc-footnotes.pdf",
+                    "size": "164 KB",
+                    "date": "2026-10-31"
+                },
+                {
+                    "title": "Chapter 19 \u00b7 Sharing, Exporting & Printing",
+                    "description": "Exporting to PDF, printing a document, sharing & OneDrive, and protecting a document.",
+                    "filename": "chapter-19-sharing-exporting-printing.pdf",
+                    "size": "160 KB",
+                    "date": "2026-11-07"
                 }
             ]
         },
