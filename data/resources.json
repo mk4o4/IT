@@ -327,6 +327,22 @@
             ]
         },
         {
+            "id": "ai-essentials",
+            "name": "AI Essentials",
+            "icon": "sparkles",
+            "description": "A beginner-friendly course on what AI is, the main types of AI tools, and how to use them safely.",
+            "folder": "AI-Essentials",
+            "files": [
+                {
+                    "title": "Part I \u00b7 Chapters 01\u201303 Class Notes",
+                    "description": "What Generative AI is, the 5 types of AI tools, free limits, account setup, and the Golden Safety Rule \u2014 with a self-test and answer key.",
+                    "filename": "AI_Essentials_Part_I_Student_Notes.pdf",
+                    "size": "132 KB",
+                    "date": "2026-09-24"
+                }
+            ]
+        },
+        {
             "id": "ms-excel-essentials",
             "name": "MS Excel Essentials",
             "icon": "table",
