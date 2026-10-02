@@ -348,7 +348,28 @@
             "icon": "table",
             "description": "Spreadsheets, formulas, and everyday data organization.",
             "folder": "MS-Excel-Essentials",
-            "files": []
+            "files": [
+                        {
+                            "title": "Unit 1 · Introduction to Excel",
+                            "description": "Overview of Excel vs. Word, core vocabulary, interface breakdown (Name Box, Formula Bar, Sheet Tabs), and navigation across the key Ribbon tabs.",
+                            "filename": "Excel_Unit_1.pdf",
+                            "size": "118 KB",
+                            "date": "2026-09-24"
+                        },
+                        {
+                            "title": "Unit 2 · Navigating the Spreadsheet",
+                            "description": "Understanding grid dimensions and cell references, keyboard navigation shortcuts, range selection techniques, Freeze Panes, and zoom tools.",
+                            "filename": "Excel_Unit_2.pdf",
+                            "size": "125 KB",
+                            "date": "2026-09-24"
+                        },
+                        {
+                            "title": "Unit 3 · Data Entry",
+                            "description": "Working with the 3 data types and alignment, entering phone numbers with leading zeros, fractions, date arithmetic, cell editing, and speed entry tricks.",
+                            "filename": "Excel_Unit_3.pdf",
+                            "size": "162 KB",
+                            "date": "2026-09-24"
+                        }]
         },
         {
             "id": "ms-powerpoint-essentials",
