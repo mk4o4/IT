@@ -390,6 +390,55 @@
                     "filename": "Excel_Unit_06_Column_Width_Row_Height.pdf",
                     "size": "458 KB",
                     "date": "2026-10-10"
+                },
+                {
+                    "title": "Unit 7 · Operators in Excel",
+                    "description": "Arithmetic and comparison operators, order of operations, and using formulas to calculate totals, averages, differences, and comparisons.",
+                    "filename": "Excel_Unit_07_Operators_In_Excel.pdf",
+                    "size": "221 KB",
+                    "date": "2026-10-24"
+                },
+                {
+                    "title": "Unit 8 · Basic Excel Formulas",
+                    "description": "Creating formulas and using SUM, AVERAGE, MIN, and MAX to calculate totals, typical values, lowest values, and highest values.",
+                    "filename": "Excel_Unit_08_Basic_Excel_Formulas.pdf",
+                    "size": "259 KB",
+                    "date": "2026-10-13"
+                },
+                {
+                    "title": "Unit 8.2 · Counting Cells",
+                    "description": "Counting numeric, non-empty, and blank cells with COUNT, COUNTA, and COUNTBLANK, with class markbook practice.",
+                    "filename": "Excel_Unit_08_2_Counting_Cells.pdf",
+                    "size": "206 KB",
+                    "date": "2026-10-14"
+                },
+                {
+                    "title": "Unit 9.1 · Extracting Text",
+                    "description": "Extracting characters from the beginning, end, or middle of text with LEFT, RIGHT, and MID, using student IDs and codes.",
+                    "filename": "Excel_Unit_09_1_Extracting_Text.pdf",
+                    "size": "264 KB",
+                    "date": "2026-10-21"
+                },
+                {
+                    "title": "Unit 10 · Relative and Absolute References",
+                    "description": "Understanding relative, absolute, and mixed cell references, using dollar signs to lock rows or columns, and copying formulas safely.",
+                    "filename": "Excel_Unit_10_Relative_And_Absolute_References.pdf",
+                    "size": "221 KB",
+                    "date": "2026-11-04"
+                },
+                {
+                    "title": "Unit 11 · IF and Conditional Formatting",
+                    "description": "Using the IF function for logical results and Conditional Formatting with highlight rules, data bars, colour scales, and icon sets.",
+                    "filename": "Excel_Unit_11_IF_And_Conditional_Formatting.pdf",
+                    "size": "249 KB",
+                    "date": "2026-11-04"
+                },
+                {
+                    "title": "Unit 12 · Charts in Excel",
+                    "description": "Choosing and creating column/bar, line, and pie charts; identifying chart parts; formatting charts; and completing chart exercises.",
+                    "filename": "Excel_Unit_12_Charts_In_Excel.pdf",
+                    "size": "378 KB",
+                    "date": "2026-11-04"
                 }
             ]
         },
@@ -399,7 +448,22 @@
             "icon": "layers",
             "description": "Building clear, well-designed slide presentations.",
             "folder": "MS-PowerPoint-Essentials",
-            "files": []
+            "files": [
+                {
+                    "title": "Unit 1 · Introduction to PowerPoint",
+                    "description": "Introduction to PowerPoint, its interface, and the basic tools for creating presentations.",
+                    "filename": "PowerPoint_Unit_01_Introduction.pdf",
+                    "size": "456 KB",
+                    "date": "2026-11-04"
+                },
+                {
+                    "title": "Unit 2 · Creating and Saving Presentations",
+                    "description": "Creating a presentation, adding and organizing slides, and saving your work.",
+                    "filename": "PowerPoint_Unit_02_Creating_and_Saving_Presentations.pdf",
+                    "size": "261 KB",
+                    "date": "2026-11-04"
+                }
+            ]
         }
     ]
 }
